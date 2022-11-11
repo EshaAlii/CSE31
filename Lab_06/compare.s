@@ -48,7 +48,7 @@ LessThanOrEq: li $v0, 4 #code 4 == print string
 	j End
 	
 	
- GreaterThan: li $v0, 4 #code 4 == print string
+GreaterThan: li $v0, 4 #code 4 == print string
 	la $a0, str3 # $a0 == address of the string
 	syscall #ask OS to preform this for us
 	j End
